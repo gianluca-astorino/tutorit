@@ -164,13 +164,28 @@ h1, h2, h3, h4, h5, h6 {
 @media(max-width:768px) {
 .banner-bg {
 	background-position: bottom -300px right -290px;
+  background-color: white;
+  background-image: none;
 }
 }
 @media(max-width:568px) {
 .banner-bg {
 	background-position: bottom -330px right -310px;
+  background-color: white;
+  background-image: none;
 }
 }
+
+#logo {
+  margin-top: -50px;
+}
+
+@media(max-width:720px) {
+#logo {
+  margin-bottom: -85px;
+}
+}
+
 </style>
 </head>
 <body onload="checkifchecked()">
@@ -179,7 +194,7 @@ h1, h2, h3, h4, h5, h6 {
     <div class="hero-shape"></div>
     <nav class="navbar navbar-expand-lg navbar-light">
       <!-- <div class="container py-2"> <a class="navbar-brand font-weight-bold" href="#">TutorIt</a> -->
-        <div class="container py-2"><a class="navbar-brand font-weight-bold" href=""><img src="https://res.cloudinary.com/piersolutions/image/upload/v1645110401/tutorit-removebg-preview_ve3wyb.png" style="margin-top: -50px;"></a> 
+        <div class="container py-2"><a class="navbar-brand font-weight-bold" href=""><img src="https://res.cloudinary.com/piersolutions/image/upload/v1645110401/tutorit-removebg-preview_ve3wyb.png" id="logo"></a> 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
@@ -303,7 +318,7 @@ h1, h2, h3, h4, h5, h6 {
         <div class="col-lg-6 mb-5">
           <h6 class="text-warning mb-3">02. Why us?</h6>
           <h2 class="font-weight-bold mb-5">Why Choose Us?</h2>
-          <p class="mb-5">My name is Demetri Kougias, Founder of TutorIt. I am a student at the University of Toronto, studying to be a Civil Engineer. I've always had a passion for my studies, and excelled in all subjects, but specifically Math and Sciences. I started TutorIt to share my passion for my studies with those who may need some extra help, and help as many students as we can succeed and reach their full potential.</p>
+          <p class="mb-5" style="color: black;">My name is Demetri Kougias, Founder of TutorIt. I am a student at the University of Toronto, studying to be a Civil Engineer. I've always had a passion for my studies, and excelled in all subjects, but specifically Math and Sciences. I started TutorIt to share my passion for my studies with those who may need some extra help, and help as many students as we can succeed and reach their full potential.</p>
           <a href="#aboutus" class="btn btn-success">More Details &rarr; </a> </div>
         <div class="col-lg-6 mb-5">
           <div class="row">
